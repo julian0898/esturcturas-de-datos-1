@@ -1,0 +1,16 @@
+#escriba un programa que reciba dos numeros distinros y diga cua es el mayor
+
+#definiendo funciones para numero mayor
+def mayor (num1, num2):
+    if num1 > num2:   
+     return print("el numero mayor es el 1")
+    if num2 > num1:   
+         return print("el numero mayor es el 2") 
+
+    
+#ingresando datos
+num1 = float(input("Ingrese numero"))
+num2 = float(input("Ingrese numero: "))
+
+res = mayor(num1, num2)
+print({res})
