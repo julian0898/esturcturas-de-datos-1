@@ -1,0 +1,10 @@
+pila = []
+print("insertando elementos")
+pila.append(9)
+pila.append(8)
+pila.append(7)
+print(pila)
+print("eliminando elementos")
+elemento=input("elimine")
+pila.pop()
+print(pila)
